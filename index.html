@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en" ><!-- esta es la etiqueta de apertura en html  -->
+<head>
+
+  <meta charset="UTF-8">
+  <title>HTML BASICO</title>
+  <!-- este es el ejemplo de un titulo de pagina -->
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+
+
+<style> /* inicio de css*/
+
+    body{
+  background-color:#00FFFF;
+  font-family: sans-serif;}
+  
+  
+  
+  h1,b{
+      color: black;
+  }
+
+
+/*body { heigh:665px; background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png"); background-size: 10rem; }*/
+
+
+.container{
+  margin: auto;
+ /*background-color:#00FFFF*/
+  ;
+  width:290px;
+  padding: 30px;
+  position: relative;
+  left: px;
+    top: 0px;
+  
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 290px;
+  height: 1000px;
+}
+
+ul.slider li {
+    position:absolute  ;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width:350px;
+ /*   height:920px;*/
+    transition: opacity .3s;
+    /*background:
+    #00FFFF
+    ;*/
+}
+
+/*ul.slider li img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;*/
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu{
+  text-align:left ;
+  margin: 20px;
+  
+  position:relative;
+         top:;
+         bottom:;
+         right:;
+         left:20%;
+  
+  
+}
+
+.menu li{
+  display: inline-block;
+  text-align:center;
+  
+}
+
+.menu li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  
+  padding: 25px;
+  width: 190px;
+  height: 90px;
+  font-size: 20px;
+  
+  border-radius
+  
+  : 100%;
+  border: 5px blue solid;
+  
+    box-shadow:0px 0px 10px 5px blue;
+                  0px 0px 10px 5px blue;
+                  
+                  
+                           
+                   position:relative;
+         top:;
+         bottom:;
+         right:;
+         left:-5%;
+}
+
+
+   
+.uno,.dos,.tres,.cuatro,.cinco,.seis,.siete,.ocho,.nueve,.diez,.once,.doce,.trece,.catorce,.quince,.diesiseis,.disisiete,.diesiocho,.diesinueve{
+    color:white;
+    border: 5px black solid;
+   /* background-color:#FAFAFA;*/
+     background-image: var(--gradiente);
+  font-family: var(--titulo);
+    --gradiente: linear-gradient(to right, #2FB3E4, #D621FB);
+    
+
+    box-shadow:0px 0px 15px 10px black
+    ;
+                  0px 0px 10px 0px blue;
+   padding:10px;
+   width: 300px;
+            
+                   position:relative;
+         top:;
+         bottom:;
+         right:;
+         left:0%;
+   }
+   
+   
+   
+    /* style de scrolling*/
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .base{
+    /*  height: 100vh;*/
+    width:300px;
+    margin: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow:0px 0px 10px 10px blue;
+                  0px 0px 10px 10px blue;
+                  
+                   position:relative;
+         top:;
+         bottom:;
+         right:;
+         left:-10%;
+                  
+                  
+    }
+    table{
+        border-collapse: collapse;
+        
+    }
+    .letter-one, .letter-two, .letter-three,
+    .letter-four
+    
+    {
+    
+        width:300px;
+        height: 100px;
+        overflow: hidden;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-size: 95px;
+        background-color:black;
+        color:white;
+        
+    }
+    .letter-one tr{
+      --ch:-7;
+      animation: scroll 1s 1s linear forwards;
+    }
+    .letter-two tr{
+      --ch:-19;
+      animation: scroll 3s 1s linear forwards;
+    }
+    .letter-three tr{
+      --ch:-12;
+      animation: scroll 2s 1s linear forwards;
+    }
+     .letter-four tr{
+      --ch:-11;
+      animation: scroll 2s 1s linear forwards;
+    }
+    
+    @keyframes scroll {
+      to{
+        transform: translateY(calc(var(--ch) * 100%));
+      }
+    }
+    
+
+
+/* fin  de css*/
+</style>
+
+</head>
+       <body background="
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhPHhtJ4iQl0UdtCw6kQn9Vv9iL7QC6HWWyVaa1mSINeSILXKykYAC-6o5&s=10
+">
+
+
+  
+  
+      
+
+<div background="
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhPHhtJ4iQl0UdtCw6kQn9Vv9iL7QC6HWWyVaa1mSINeSILXKykYAC-6o5&s=10
+"
+class="container"
+
+>
+<div class="base">
+    <div class="letter-one">
+      <table>
+          <tr>
+              <td>A</td>
+          </tr>
+          <tr>
+              <td>B</td>
+          </tr>
+          <tr>
+              <td>C</td>
+          </tr>
+          <tr>
+              <td>D</td>
+          </tr>
+          <tr>
+              <td>E</td>
+          </tr>
+          <tr>
+              <td>F</td>
+          </tr>
+          <tr>
+              <td>G</td>
+          </tr>
+          <tr>
+              <td>H</td>
+          </tr>
+          <tr>
+              <td>I</td>
+          </tr>
+          <tr>
+              <td>J</td>
+          </tr>
+          <tr>
+              <td>K</td>
+          </tr>
+          <tr>
+              <td>L</td>
+          </tr>
+          <tr>
+              <td>M</td>
+          </tr>
+          <tr>
+              <td>N</td>
+          </tr>
+          <tr>
+              <td>O</td>
+          </tr>
+          <tr>
+              <td>P</td>
+          </tr>
+          <tr>
+              <td>Q</td>
+          </tr>
+          <tr>
+              <td>R</td>
+          </tr>
+          <tr>
+              <td>S</td>
+          </tr>
+          <tr>
+              <td>T</td>
+          </tr>
+          <tr>
+              <td>U</td>
+          </tr>
+          <tr>
+              <td>V</td>
+          </tr>
+          <tr>
+              <td>W</td>
+          </tr>
+          <tr>
+              <td>X</td>
+          </tr>
+          <tr>
+              <td>Y</td>
+          </tr>
+          <tr>
+              <td>Z</td>
+          </tr>
+      </table>
+    </div>
+    <div class="letter-two">
+        <table>
+            <tr>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>H</td>
+            </tr>
+            <tr>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+            </tr>
+            <tr>
+                <td>L</td>
+            </tr>
+            <tr>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Q</td>
+            </tr>
+            <tr>
+                <td>R</td>
+            </tr>
+            <tr>
+                <td>S</td>
+            </tr>
+            <tr>
+                <td>T</td>
+            </tr>
+            <tr>
+                <td>U</td>
+            </tr>
+            <tr>
+                <td>V</td>
+            </tr>
+            <tr>
+                <td>W</td>
+            </tr>
+            <tr>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td>Z</td>
+            </tr>
+        </table>
+    </div>
+    <div class="letter-three">
+        <table>
+            <tr>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>H</td>
+            </tr>
+            <tr>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+            </tr>
+            <tr>
+                <td>L</td>
+            </tr>
+            <tr>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Q</td>
+            </tr>
+            <tr>
+                <td>R</td>
+            </tr>
+            <tr>
+                <td>S</td>
+            </tr>
+            <tr>
+                <td>T</td>
+            </tr>
+            <tr>
+                <td>U</td>
+            </tr>
+            <tr>
+                <td>V</td>
+            </tr>
+            <tr>
+                <td>W</td>
+            </tr>
+            <tr>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td>Z</td>
+            </tr>
+        </table>
+    </div>
+    <div class="letter-four">
+        <table>
+            <tr>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>C</td>
+            </tr>
+            <tr>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>H</td>
+            </tr>
+            <tr>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+            </tr>
+            <tr>
+                <td>K</td>
+            </tr>
+            <tr>
+                <td>L</td>
+            </tr>
+            <tr>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>P</td>
+            </tr>
+            <tr>
+                <td>Q</td>
+            </tr>
+            <tr>
+                <td>R</td>
+            </tr>
+            <tr>
+                <td>S</td>
+            </tr>
+            <tr>
+                <td>T</td>
+            </tr>
+            <tr>
+                <td>U</td>
+            </tr>
+            <tr>
+                <td>V</td>
+            </tr>
+            <tr>
+                <td>W</td>
+            </tr>
+            <tr>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td>Z</td>
+            </tr>
+        </table>
+    </div>
+  </div>
+  
+  <ul class="menu">
+    <li>
+      <a href="#slide1">HTML</a>
+   </li>
+    <li>
+      <a href="#slide2">HEAD</a>
+    </li>
+     <li>
+      <a href="#slide3">TITLE</a>
+    </li>
+    <li>
+    <a href="#slide4">BODY</a>
+    </li>
+    
+    <li>
+    <a href="#slide5">ETIQUETA H</a>
+    </li>
+    
+    <li>
+    <a href="#slide6">ETIQUETA HR</a>
+    </li>
+    
+    <li>
+    <a href="#slide7">ETIQUETA !--</a>
+    </li>
+    
+    <li>
+    <a href="#slide8">ETIQUETA P</a>
+    </li>
+    
+    <li>
+    <a href="#slide9">ETIQUETA BR</a>
+    </li>
+    
+    <li>
+    <a href="#slide10">ELEMENTOS DE FORMATO</a>
+    </li>
+    
+    <li>
+    <a href="#slide11">ATRIBUTOS</a>
+    </li>
+    
+<li>
+    <a href="#slide12">ETIQUETA IMG</a>
+    </li>
+    
+<li>
+    <a href="#slide13">LISTAS</a>
+    </li>
+    
+    <li>
+    <a href="#slide14">TABLAS</a>
+    </li>
+    
+<li>
+    <a href="#slide15">ETIQUETA A</a>
+    </li>
+    
+    <li>
+    <a href="#slide16">TIPOS DE ELEMENTOS</a>
+    </li>
+    
+    <li>
+    <a href="#slide17">ELEMENTO FORM
+        
+    </a>
+    </li>
+    
+    <li>
+    <a href="#slide18">COLORES EN HTML
+        
+    </a>
+    </li>
+    
+    <li>
+    <a href="#slide19">ETIQUETA FRAME
+        
+    </a>
+    </li>
+    
+    
+  </ul>
+
+
+
+
+
+  <!-- apartado de enlaces -->
+  
+  
+  <!-- apartado sobre html-->
+  <ul background="
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhPHhtJ4iQl0UdtCw6kQn9Vv9iL7QC6HWWyVaa1mSINeSILXKykYAC-6o5&s=10
+"
+  class="slider">
+    <li id="slide1">
+    <div class="uno">
+   <h1 align="center">HTML</h1>
+ <p>  ES Un lenguaje de marcado o lenguaje de marcas es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentación.<br /><br />
+Los documentos <b>HTML</b>  son archivos de texto, por lo que puedes usar cualquier editor de texto <br /><br />
+
+Un documento en <b>HTML</b> tiene etiquetas de apertura y cierre y siempre comienzan  con la etiqueta <b>HTML</b><br /><br />
+
+Los documentos <b>HTML</b> están hechos de elementos <b>HTML</b><br />
+Un elemento <b>HTML</b> se escribe  usando una etiqueta de inicio, una etiqueta de cierre, y con el contenido en medio de ambas etiquetas <br />
+
+Los documentos <b>HTML</b> consisten en elementos <b>HTML</b> amidados.<br />
+        
+Algunos elementos <b>HTML</b> (como la etiqueta <b>br</b>  ) no tienen etiquetas de cierre.<br /><br />
+
+Algunos elementos son bastante pequeños.  Como no podemos agregar contenido dentro de una etiqueta de salto de línea, y no tiene una etiqueta de apertura ni tampoco de cierre, este es un elemento separado y sencillo.<br />
+
+
+Por lo tanto, <b>HTML</b> es en realidad múltiples secuencias de comandos utilizando elementos dentro de elementos.<br />
+
+<b>Diseño Web Moderno</b><br />
+<b>HTML:</b>estructura<br />
+<b>CSS:</b> Presentación <br />
+<b>Java script :</b>Comportamiento <br />
+
+<b>PHP o similar:</b>Back-end <br />
+<b>CMS:</b> Gestión de contenidos <br />
+</p>
+</div>
+  </li>
+  
+<!-- apartado sobre head -->
+ <li id="slide2">
+ <div class="dos">
+<h1 align="center">HEAD</h1>
+La etiqueta <b>HEAD</b> <br />
+ de un archivo <b>HTML</b> contiene todos los elementos no visuales que ayudan a que la página funcione correctamente. <br /><br /></div>
+    </li>
+    
+   <!-- apartado sobre title --> 
+    <li id="slide3">
+    <div class="tres">
+<h1 align="center">TITLE</h1>
+La etiqueta <b>TITLE</b> <br />
+Sirve para colocar en la pestaña un título que describa la página web<br />
+<br /></div>
+    </li>
+
+<!-- apartado sobre body-->
+<li id="slide4">
+    <div class="cuatro">
+<h1 align="center">BODY</h1>
+<p>
+ La etiqueta <b>BODY</b> sigue después de la etiqueta <b>HEAD</b>.<br />
+Todos los elementos visuales-estructurales están contenidos dentro de la etiqueta <b>BODY</b>.
+<br />
+Encabezados, párrafos, listas, citas, imágenes e hipervínculos son tan sólo algunos de los elementos que puede contener la etiqueta <b>BODY</b>
+
+</p>
+</div>
+    </li>
+    
+<!-- apartado sobre encabezados-->
+  
+  <li id="slide5">
+    <div class="cinco">
+<h1 align="center">ENCABEZADOS</h1>
+<p>
+<b>HTML</b> incluye seis niveles de encabezados, los cuales están clasificados de acuerdo a su importancia.<br />
+Estos son <b>h1</b>,<b>h2</b>,<b>h3</b>,<b>h4</b>,<b>h5</b>, y<b>h6</b><br />
+
+No es recomendable que uses encabezados sólo para convertir el texto en negrita o cursiva, ya que los motores de búsqueda usan los encabezados para indexar la estructura de la página web y el contenido.
+
+   <h1>Este es el encabezado 1 con h1</h1>
+   <h2>Este es el encabezado 2 con h2</h2>
+   <h3>Este es el encabezado 3 con h3</h3>
+   <h4>Este es el encabezado 4 con h4</h4>
+   <h5>Este es el encabezado 5 con h5</h5>
+   <h6>Este es el encabezado 6 con h6</h6>
+</p>
+</div>
+    </li>
+    
+ <!-- apartado sobre la etiqueta hr -->
+    
+<li id="slide6">
+    <div class="seis">
+<h1 align="center">LINEAS HORIZONTALES</h1>
+<p>
+ 
+
+Para crear una línea horizontal, usa la etiqueta <b>hr</b> <br />
+<b>ejemplo de una linea horizontal</b>
+<hr>
+
+En <b>HTML 5</b> , la etiqueta <b>hr</b>  define un cambio de tema.<br />
+
+</p>
+</div>
+    </li>
+
+
+<!-- apartado sobre comentarios en html -->
+       
+<li id="slide7">
+    <div class="siete">
+<h1 align="center">COMENTARIOS</h1>
+<p>
+Para crear un comentario en nuestro código es necesario abrir una etiqueta con signo de exclamacion ! Y dos de menos -- y cierras la etiqueta con dos signos de menos --<br/>
+<br />
+El explorador no despliega comentarios, pero estos ayudan a documentar el código <b>HTML</b> para agregar descripciones, recordatorios y otras notas.
+<!-- aqui van los comentarios -->
+
+
+</p>
+</div>
+    </li>
+    
+<!-- apartado sobre la etiqueta p-->
+    <li id="slide8">
+    <div class="ocho">
+<h1 align="center">ETIQUETA P</h1>
+<p>
+<b>El elemento P</b><br />
+Para crear un párrafo, simplemente escribe dentro del elemento <b>P</b>, entre las etiquetas de apertura y cierre:<br /><br />
+Los exploradores web automáticamente agregan una línea antes y después del párrafo.
+</p>
+</div>
+    </li>
+ 
+<!-- apartado sobre la etiqueta br-->
+
+<li id="slide9">
+    <div class="nueve">
+<h1 align="center">ETIQUETA BR</h1>
+<p>
+<b>Salto de línea sencillo</b> <br />
+Use la etiqueta <b>br</b> para agregar un salto de línea sin empezar un nuevo párrafo:<br />
+El elemento <b>br</b> es un elemento <b>HTML</b> vacío. No tiene etiqueta de cierre.<br />
+<br /><!-- etiqueta sirve para dar un salto de linea -->
+</p>
+</div>
+    </li>
+    
+<!--apartado de elementos de formato-->
+<li id="slide10">
+    <div class="diez">
+<h1 align="center">ELEMENTOS DE FORMATO</h1>
+<p>
+En <b>HTML</b>, hay una lista de elementos que especifican el estilo de texto. <br />
+
+Los elementos de formato fueron diseñados para mostrar tipos especiales de texto:<br />
+
+La etiqueta <b>strong</b>   es una etiqueta de frase que define texto importante.<br />
+<br />
+
+Los exploradores muestran <b>strong</b> como <b>b</b>, y <b>em</b> como <b>i</b>.
+Sin embargo, los significados de estas etiquetas difieren: <b>b</b> e <b>i</b> definen texto en negrita y cursiva respectivamente, mientras que <b>strong</b> y <b>em</b> indican que el texto es "importante".
+<p>Esto es texto regular etiqueta p </p>
+<p><b> Texto en negrita etiqueta b</b></p>
+<p><big> Texto grande etiqueta big</big></p>
+<p><i> Texto en cursiva etiqueta i</i></p>
+<p><small> Texto pequeño etiqueta small</small></p>
+<p><strong> Texto fuerte etiqueta strong</strong></p>
+        <p><sub> Texto subíndice etiqueta sub</sub></p>
+        <p><sup> Texto superíndice etiqueta sup</sup></p>
+        <p><ins> Texto insertado etiqueta ins</ins></p>
+        <p><del> etiqueta del Texto borrado etiqueta del </del></p>
+</p>
+</div>
+    </li>
+    
+    <!--apartado de elementos de atributos-->
+    <li id="slide11">
+    <div class="once">
+<h1 align="center">ATRIBUTOS</h1>
+<p>
+
+<P align="center"><b>ATRIBUTOS DE UBICACIÓN</b></p>
+
+
+Los atributos proveen información adicional sobre un elemento o etiqueta, a la vez que lo modifican.<br />
+La mayoría de atributos tienen un valor; el valor modifica el atributo.<br />
+
+El atributo de alineación <b>p</b> no está soportado en <b>HTML 5</b>.
+
+<p align="center"> 
+    Este texto está alineado hacia el centro <br />
+    atributo <b>align</b> valor <b>center</b>
+</p>
+<p align="right"> 
+    Este texto está alineado hacia el derecha atributo <b>align</b> valor <b>right</b>
+</p>
+ 
+
+      Los atributos siempre están especificados en la etiqueta de apertura, y aparecen en parejas de nombre="valor".
+      
+<p align="center"><b>
+    ATRIBUTOS DE DIMENSIÓN</p></b>
+Un atributo de dimensión que existe es el atributo <b>width</b><br />
+Como un ejemplo, podemos modificar la línea horizontal para que tenga un ancho de 50 pixeles.<br />
+Esto se puede hacer usando el atributo <b>width</b> y el valor en <b>px</b>
+<hr width="50px" />
+El ancho de un elemento también puede ser modificado usando porcentajes con <b>width</b> y el valor en <b>%</b>:
+<hr width="50%" />
+
+Esto es un ejemplo de como modificar una linea modificando su tamaño y lugar
+    <hr width="50%" align="left" />
+
+La anchura de un elemento se puede definir mediante píxeles o porcentajes.
+</p>
+</div>
+    </li>
+
+<!--apartado de etiqueta img-->
+    <li id="slide12">
+    <div class="doce">
+<h1 align="center">ETIQUETA IMG</h1>
+<p>
+
+
+</b></p>
+La etiqueta <b>img</b> es usada para insertar una imagen.<br />  
+Contiene sólo atributos, y no tiene una etiqueta de cierre.<br />
+La URL de la imagen (dirección) puede ser definida usando el atributo src.<br />
+
+El atributo alt especifica un texto alternativo para una imagen <br /><br />
+
+<b> imagen por medio de enlace</b> <br />
+<!-- codigo para insertar una url de una imagen -->
+<img width ="1px" src="https://www.gamecored.com/wp-content/uploads/2020/01/Dragon-Ball-FighterZ-Goku-Ultra-Instinto-pic000-e1579709686761-810x400.jpg
+            "><br />
+            
+Para que el explorador web pueda desplegar una imagen, necesitamos colocar dentro de comillas la ubicación de la imagen como valor del atributo <b>src</b><br />
+
+
+<b>
+ img src="url de la imagen" alt="texto alternativo"</b><br />
+ 
+ En caso de que la imagen no pueda ser mostrada, el atributo alt especifica un texto alternativo que describe la imagen 
+en palabras.  El atributo alt es requerido.
+<br /><br />
+
+<b> Cambiar el tamaño de una imagen</b><br />
+
+Para definir el tamaño de una imagen, usa los atributos <b>width</b>  y <b>height</b> (ancho y alto).
+<br /><br />
+
+El valor puede ser especificado en pixeles o como un porcentaje:<br />
+<b>imagen editada con porcentajes</b><br />
+<img width ="40%" height ="20%" src="https://www.gamecored.com/wp-content/uploads/2020/01/Dragon-Ball-FighterZ-Goku-Ultra-Instinto-pic000-e1579709686761-810x400.jpg
+            "><br />
+
+<b>imágen editada con pixeles</b><br />
+<img width ="90px" height ="90px" src="https://www.gamecored.com/wp-content/uploads/2020/01/Dragon-Ball-FighterZ-Goku-Ultra-Instinto-pic000-e1579709686761-810x400.jpg
+            "><br /><br />
+            La carga de imágenes toma tiempo.  Usar imágenes grandes puede volver lenta tu página, así que úselas con precaución.<br /><br />
+        <b>
+            Borde de la imagen
+        </b><br />
+        Por defecto, una imagen no tiene bordes.  <br />usa el atributo <b>border</b> dentro de la etiqueta <b>img</b> crear un borde alrededor de la imagen <br />
+        <b>imagen con borde</b><br />
+        
+        
+        <img width ="50%" height ="50%" border="5px" src="https://www.gamecored.com/wp-content/uploads/2020/01/Dragon-Ball-FighterZ-Goku-Ultra-Instinto-pic000-e1579709686761-810x400.jpg
+            ">
+</p>
+ </div>
+    </li>
+     
+     <!--apartado de listas  -->
+     <li id="slide13">
+    <div class="trece">
+<h1 align="center">LISTAS</h1>
+<p>
+
+
+<b>
+    LISTAS HTML ORDENADAS
+</b>
+
+Una lista ordenada empieza con la etiqueta <b>ol</b>  y cada ítem es definido por la etiqueta <b>li</b><br />
+
+Los ítems de la lista serán automáticamente marcados con números.<br />
+
+Aquí un ejemplo de una <b>lista ordenada:</b><br />
+
+         <ol>
+            <li>Rojo</li>
+            <li>Azul</li>
+            <li>Verde</li>
+        </ol>
+<b>
+    Lista HTML sin ordenar
+</b><br />
+Una lista sin ordenar comienza con la etiqueta <b>ul</b> <br />
+
+    Los ítems de la lista serán marcados con viñetas
+</b>
+Ejemplo <br />
+
+        <ul>
+            <li>Rojo</li>
+            <li>Azul</li>
+            <li>Verde</li>
+        </ul>
+
+Las listas no se ven por la configuración de css actual
+</p>
+</div>
+    </li>
+    <!--apartado de tablas -->
+
+    <li id="slide14">
+    <div class="catorce">
+<h1 align="center">TABLAS</h1>
+<p>
+
+
+Las tablas son definidas usando la etiqueta <b>table</b><br />
+Las tablas son divididas en filas con la etiqueta <b>tr</b><br />
+Las filas de la tabla son divididas en columnas (datos de la tabla) con la etiqueta <b>td</b><br />
+
+
+Las etiquetas de datos de la tabla <b>td</b> actúan como contenedores de datos dentro de la tabla.
+Pueden contener todo tipo de elementos <b>html</b>  como texto, imágenes, listas, otras tablas, y demás.<br />
+
+<!--Aquí hay un ejemplo de una tabla con una fila y tres columnas:-->
+
+<table>
+   <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+   </tr>
+</table>
+
+<b>tabla sin borde</b>
+
+
+<table>
+   <tr>
+      
+   <tr>
+      <td>rojo</td>
+      <td>azul</td>
+      <td>verde</td>
+   </tr>
+</table><br />
+
+<b>Los atributos Border y Colspan </b><br />
+Un borde puede ser agregado usando <br />el atributo <b> border</b><br />
+<br />
+<b>Ejemplo ds tabla con borde</b> <br />
+<table border="2">
+    <tr>
+        <td>Rojo</td>
+        <td>Azul</td>
+        <td>Verde</td>
+    </tr>
+    </table><br /><br>
+    
+    <b>Atributo COLSPAN
+    </b><br />
+    
+    
+    La celda de una tabla puede expandirse entre dos o más columnas usabdo el atributo
+    <b>
+        colspan
+    </b><br><br />
+    <b>tabla sin colspan</b>
+
+
+<table border="2">
+    <tr>
+        <td>Rojo</td>
+        <td>Azul</td>
+        <td>Verde</td>
+    </tr>
+    <tr>
+        <td>rosa</td>
+        <td >negro</td>
+    </tr>
+</table><br />
+
+<b>tabla con colspan</b>
+    <table border="2">
+    <tr>
+        <td>Rojo</td>
+        <td>Azul</td>
+        <td>Verde</td>
+    </tr>
+    <tr>
+        <td>rosa</td>
+        <td colspan="2">negro</td>
+    </tr>
+</table><br />
+
+Para hacer que una celda se expanda a más de una fila, usa el atributo rowspan.<br />
+    El atributo border no está soportado en <b>HTML5</b><br /><br />
+
+<b>
+    Los atributos align y bgcolor en tablas
+</b>
+</br><br />
+Para cambiar la posición de una tabla, usa el atributo <b> align </b> dentro de la etiqueta table:<br /><br />
+
+Para poner un color de fondo en una celda de tabla se utiliza el atributo <b>bgcolor</b> <br /><br />
+
+    En el caso de dar estilo a los elementos,<b> CSS </b> es más efectivo que
+    <b>HTML</b><br />
+    
+   <b>
+       Tabla con colores
+   </b> 
+    <table border="2">
+    <tr>
+        <td bgcolor="red">Rojo</td>
+        <td bgcolor="blue">Azul</td>
+        <td bgcolor="green">Verde</td>
+    </tr>
+    <tr>
+    <td bgcolor="yellow">Amarillo</td>
+    <td colspan="2"bgcolor="orange">Naranja</td>
+    </tr>
+</table>
+    
+
+</p>
+</div>
+    </li>
+    
+<!--apartado sobre los hipervinculos  -->
+<li id="slide15">
+    <div class="quince">
+<h1 align="center">HIPERVÍNCULOS</h1>
+<p>
+
+Los <b>hipervinculos</b> también son una parte fundamental de cualquier página web. Puede agregar <b>hipervinculos</b> a textos o imágenes que le permitirán al usuario hacer click en ellos para luego ser redirigidos a otro archivo o página web.
+En <b>HTML</b>, los hipervínculos son definidos usando la etiqueta <b>a</b>.<br /><br />
+Use el atributo <b>href</b> para definir la dirección de destino del <b>hipervinculos</b><br /><br />
+
+<b>EJEMPLO DE UN HIPERVINCULO</b><br />
+
+<a href="https://youtube.com/c/FELIPEMARTINEZCOMPOSITOR
+"> MI CANAL DE YOUTUBE</a><br /><!--ejemplo de un hipervinculo   -->
+Para vincular una imagen a otro documento, simplemente introduce la etiqueta <b>img</b> entre etiquetas <b>a</b>.<br /><br />
+
+Los <b>hipervinculos</b> pueden ser absolutos o relativos.<br /><br />
+
+<b>
+    El atributo target
+</b><br /><br />
+El atributo <b>target</b> especifica donde abrir el documento vinculado.<br />
+Dándole un valor  <b>_blank</b>_al atributo abrirá el <b>hipervinculo</b> en una nueva ventana o pestaña:<br /><br />
+
+Un link que ha sido visitado se muestra en violeta y subrayado <br />
+
+<b>Ejemplo de hipervinculo con target blank</b><br />
+<a href="https://youtube.com/c/FELIPEMARTINEZCOMPOSITOR
+" target="_blank">
+    Mi canal de youtube
+</a>
+
+</p>
+</div>
+    </li>
+    
+<!--apartado de elementos block y inline  -->
+<li id="slide16">
+    <div class="diesiseis">
+<h1 align="center">ELEMENTOS BLOCK Y INLINE</h1>
+<p>
+En <b>HTML</b>, la mayoría de elementos son definidos como elementos a nivel de bloque <b>BLOCK</b>o en línea <b>inline</b>
+Los elementos a nivel de <b>bloque</b>  empiezan desde una nueva línea.<br /> 
+Por Ejemplo:<b> h1, form, li, ol, ul, p, pre, table, div, etc.</b><br /><br />
+
+Los elementos en <b>linea</b> son normalmente desplegados sin los saltos de línea.<br />
+Por Ejemplo:<b>b, a, strong, img, input, em, span, etc.</b><br /><br />
+
+El elemento <b>div</b>  es un elemento a nivel de <b>bloque</b> que es a menudo utilizado como contenedor para otros elementos <b>HTML</b><br /><br />
+Cuando se utiliza en conjunto con<b>CSS</b>, el elemento <b>div</b> puede ser utilizado para darle estilo a bloques de contenido:
+<h1>EJEMPLO DE UN ELEMENTO BLOQUE CON ETIQUETA H</h1>
+        
+            <p>EJEMPLO DE UN ELEMENTO BLOQUE CON ETIQUETA P</p><br />
+            
+            El elemento <b>spsan</b> es un elemento de línea que es a menudo utilizado como contenedor para algún texto.
+Cuando se utiliza en conjunto con <b>CSS,</b> el elemento <b>span</b> puede ser utilizado para darle estilo a partes del texto:
+
+<h2>texto normal<span style="color:red"> texto span color css</span></h2>        
+        
+Otros elementos pueden ser usados como elementos del nivel de bloque o elementos en línea.  Esto incluye los siguientes elementos:<br />
+<b>APPLET</b>- applet Java embebido <br />
+<b>IFRAME </b> - marco en línea <br />
+<b>INS</b>   - texto insertado <br />
+<b>MAP</b>- mapa de imagen <br />
+<b>OBJECT</b>- objeto incrustado <br />
+<b>SCRIPT</b>- secuencia de comandos <br /> dentro de un DOCUMENTO <b>HTML</b> <br /><br />
+
+Puede insertar elementos en línea dentro de los elementos de bloque. Por ejemplo, puede tener múltiples elementos <b>span</b> dentro de un elemento <b>div</b><br />
+
+Los elementos en línea no pueden contener ningún elemento de nivel de bloque.
+</p>
+</div>
+    </li>
+<!--apartado de elemento form -->
+<li id="slide17">
+    <div class="disisiete">
+<h1 align="center">ELEMENTO FORM</h1>
+<p>
+
+Los formularios <b>HTML</b>  son usados para recolectar información del usuario.
+Los formularios son definidos usando el elemento <b>form</b>, con sus etiquetas de apertura y cierre:<br />
+
+Utiliza el atributo <b>action</b> para apuntar a una página web que cargará después de que el usuario envíe el formulario.<br />
+
+
+<form><!--la etiqueta de form por si sola no hace nada ocupa de otros elementos para funcionar-->
+</form>
+
+<form action="http://www.sololearn.com"> 
+</form><!-- el atributo action ocupa de otros elementos para funcionar -->
+
+Usualmente, el formulario es enviado a una página web en un servidor web.<br /><br />
+<b>
+    Los atributos method y name 
+</b><br />
+El atributo<b> method </b> especifica el método HTTP <b> (GET o POST) </b> a ser usado cuando los formularios son enviados (observe abajo la descripción):<br />
+
+Cuando usamos <b>GET</b> , los datos del formulario serán visibles en la dirección de la página.<br />
+UTILIZA <b>POST</b>  si el formulario está actualizando datos, o incluye información sensible <b> (contraseñas) <br /> POST </b> ofrece mejor seguridad porque los datos enviados no son visibles en la dirección de la página.<br /><br />
+
+<!--codigo de get y post-->
+
+<form action="url" method="GET">
+
+<form action="url" method="POST">
+
+
+Para capturar los datos de entrada del usuario, necesitamos los elementos del formulario correspondientes, como por ejemplo los campos de texto.<br>
+El elemento <b>input</b> tiene muchas variaciones, dependiendo del tipo de atributo.<b> Puede ser texto, contraseña, radio, URL, envío, etc. </b><br />
+La etiqueta <b>input</b> no tiene etiqueta de cierre.<br />
+
+<b>EJEMPLO DE UN FORMULARIO CON USUARIO Y CONTRASEÑA</b><br />
+
+
+
+<form>
+    <input type="text" name="usuario" />
+    Usuario <br />
+    <input type="password" name="contraseña" />contraseña
+</form>
+
+El atributo name especifica un nombre para un formulario. <br /><br />
+
+Si cambiamos el tipo <b>input</b> a <b>radio</b>, permitiremos al usuario seleccionar sólo una de un número de opciones desplegadas:<br />
+<b>Ejemplo</b> <br />
+
+<input type="radio" name="gender" value="male" />Masculino <br />
+<input type="radio" name="gender" value="female" />Femenino <br />
+
+El tipo <b>"checkbox"
+    
+</b> permite al usuario seleccionar más de una opción:<br />
+<b>Ejemplo</b><br />
+<input type="checkbox" name="gender" value="1" />Masculino <br />
+<input type="checkbox" name="gender" value="2" />Femenino <br /><br />
+
+El tipo <b>submit
+    
+</b>    envía un formulario a la dirección especificada en su atributo action:<br />
+<b>Ejemplo</b> <br />
+<input type="submit" value="Enviar" /><br />
+
+Luego de que el formulario es enviado, los datos deberían ser procesados en el servidor usando un lenguaje de programación, como <b>PHP</b>.
+</p>
+</div>
+    </li>
+    
+<!--apartado de COLORES  -->
+<li id="slide18">
+    <div class="diesiocho">
+<h1 align="center">COLORES EN HTML</h1>
+<p>
+Los colores en <b>HTML</b> son expresados con nombre o con como valores hexadecimales. 
+
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F <br />
+Como puede ver, hay 16 valores, desde 0 hasta F. El cero representa el nivel más bajo, y F representa el más alto.<br />
+
+Los colores son especificados en combinaciones de rojo, verde y azul claro.<br />
+<b>(RGB por sus siglas en inglés). </b><br />
+
+Los valores hexadecimales son escritos usando el símbolo numeral (#), seguido por tres o seis caracteres hexadecimales.<br />
+Como se muestra en la imagen siguiente, los círculos se sobreponen, formando nuevos colores:<br />
+Todas las combinaciones posibles de rojo, verde y azul suman más de 16 millones.<br />
+
+Los valores de color RBG están soportados en todos los navegadores <br />
+<a href="https://ibb.co/TPHWQgz"><img src="https://i.ibb.co/TPHWQgz/images-13-2.jpg" alt="images-13-2" border="0" /></a><br />
+<b>Colores de fondo y de fuente</b><br />
+
+El atributo <b>bgcolor</b> puede ser usado para cambiar el color de fondo de la página web. <br />
+El atributo <b>color</b>  especifica el color del texto dentro de un elemento <b>font</b>.<br />
+<b>EJEMPLO DE ALGUNOS COLORES</b>
+
+<p>
+<font color="BLUE">COLOR AZUL </font><br />
+<font color="red">COLOR ROJO </font><br />
+<font color="GREEN">COLOR VERDE </font><br />
+<font color="PINK">COLOR ROSA</font><br />
+<font color="YELLOW">COLOR AMARILLO </font><br />
+</p> 
+</p>
+</div>
+    </li>
+    
+    <!--apartado de listas  -->
+<li id="slide19">
+    <div class="diesinueve">
+<h1 align="center"> MARCOS</h1>
+<p>
+Una página puede dividirse en marcos usando un documento especial de marco.
+
+La etiqueta <b>frame</b> define una ventana específica (marco) dentro de un <b>frameset</b>. Cada <b>frame</b> en un <b>frameset</b> puede tener diferentes atributos, como borde, desplazamiento, la habilidad de redimensionar, etc.
+El elemento <b>frameset</b> especifica el número de columnas o filas en el conjunto de marcos o <b>frameset</b>, y también el porcentaje o número de píxeles de espacio que cada uno ocupa.<br />
+
+Use el atributo  <b>noresize
+    
+</b> para impedir que el usuario pueda redimensionar un elemento <b>
+    frame:
+</b><br />
+
+El contenido del marco debería ser definido usando el atributo <b>src</b><br />
+
+Finalmente, el elemento <b>noframes</b> provee una alternativa para los exploradores que no soportan marcos para visualizar la página.<br />
+El elemento puede contener una página alternativa, completa con una etiqueta body y otros elementos.<br />
+
+
+La etiqueta <b>frameset</b> no está soportada en <b>HTML5</b>.
+
+
+</p>
+</div>
+    </li>
+
+
+
+    
+  </ul>
+</div>
+
+  
+</body>
+</html>
